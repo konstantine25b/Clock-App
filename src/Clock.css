@@ -1,0 +1,68 @@
+body{
+    background-image: url('./bg-image-daytime.jpg');
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+.mainDiv{
+    width: 100%; 
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.topDiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.leftSide{
+    width: 60%;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    color: rgb(255, 255, 255);
+}
+.rightSide{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+   
+}
+.leftSideTop{
+    font-size: 55px;
+}
+.timeH1{
+    font-size: 90px;
+}
+.bottomDiv{
+    width: 100%;
+    height: 45vh;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bottomLeftSide{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.bottomRightSide{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
